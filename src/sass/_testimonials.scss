@@ -1,0 +1,35 @@
+.testimonials {
+    background-color: $first-color;
+    .row {
+        height: 65vh;
+        min-height: 430px;
+        max-height: 470px;
+        text-align: center;
+        font-family: $second-font;
+    }
+    h1 {
+        font-size: 5em;
+        line-height: 50%;
+    }
+    p {
+        font-size: 1.3em;
+        line-height: 180%;
+    }
+    span {
+        font-family: $first-font;
+        font-weight: 700;
+        display: block;
+        margin-top: 10vh;
+        &::before,
+        &::after {
+            content: '';
+            display: inline-block;
+            z-index: 10;
+            width: 20px;
+            height: 2px;
+            background-color: #ffffff;
+            margin: 0 0.5vw;
+            vertical-align: middle;
+        }
+    }
+}
