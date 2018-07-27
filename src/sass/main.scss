@@ -1,0 +1,22 @@
+@import 'font-stack';
+@import 'primary-color';
+html {
+    font-size: 15px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #fff;
+}
+.container {
+    padding: 0 !important;
+}
+@import 'extend';
+@import 'header';
+@import 'about';
+@import 'services';
+@import 'testimonials';
+@import 'contact';
+@import 'footer';
+@import 'media-querys';

@@ -1,0 +1,54 @@
+.block_3 {
+    height: 75vh;
+    min-height: 576px;
+    max-height: 700px;
+}
+.title_text {
+    font-family: $first-font;
+    text-align: center;
+    h1 {
+        margin-top: 10vh;
+        color: $first-color;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.9em;  
+    }
+    p {
+        @extend %span-style;
+        max-width: 530px;
+    }
+}
+.img-block {
+    width: 100%;
+}
+.img-text {
+    text-align: left;
+    font-family: $first-font;
+    h2 {
+        margin: 2.4vh 0;
+        color: $first-color;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.2em;  
+    }
+    p {
+        color: $first-text-color;
+        font-weight: 400;
+        font-size: 0.9em;
+        margin-bottom: 4vh;
+        line-height: 180%;
+    }
+}
+.info_block {
+    background-color: $first-color;
+    .row {
+        height: 30vh;
+        min-height: 210px;
+        max-height: 240px;
+    }
+}
+.video {
+    height: 65vh;
+    min-height: 450px;
+    max-height: 570px;
+}
